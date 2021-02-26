@@ -6,12 +6,12 @@ html {
 /* Header styling */
 /* Gradient colour for background */
 :root {
-    --header-background: linear-gradient(to bottom, #2f3e46, #52796f);
+    --gradient-background: linear-gradient(to bottom, #2f3e46, #52796f);
 }
 
 header {
     background-color: #2f3e46;
-    background: var(--header-background);
+    background: var(--gradient-background);
     margin-bottom: 10vmin;
 }
 
@@ -69,7 +69,7 @@ header .stand-out-text {
 
 /* Reviews Styling */
 /* Adjust formatting */
-.section-reviews .square-text {
+.section-reviews .square-text, .trainer-section .square-text {
     font-size: 3rem;
 }
 
@@ -86,8 +86,38 @@ header .stand-out-text {
     font-size: 1rem;
 }
 
-#meet-trainer-button {
+#meet-trainer-button, #view-plans-button {
     margin-top: 3vmin;
     background-color: #2f3e46;
     color: ghostwhite;
+}
+
+/* Trainer section styling */
+.trainer-section .trainer-img {
+    width: 80%;
+    border-radius: 5vmin;
+}
+
+.trainer-section .panel {
+    position: relative;
+    top: 7vmin;
+    left: -15vmin;
+    border-radius: 5vmin;
+    background: var(--gradient-background);
+    padding: 10vmin 5vmin 10vmin;
+    margin-bottom: 5vmin;
+    text-align: left;
+}
+
+.trainer-section .panel h1 {
+    font-family: 'Ropa Sans', sans-serif;
+    color: ghostwhite;
+    font-size: 2em;
+    font-weight: bold;
+    padding-left: 2vmin;
+}
+
+.trainer-section .panel p {
+    font-size: 1em;
+    color: #cad2c5;
 }
