@@ -12,6 +12,7 @@ html {
 header {
     background-color: #2f3e46;
     background: var(--header-background);
+    margin-bottom: 10vmin;
 }
 
 /* Space from edges */
@@ -31,7 +32,7 @@ header a {
     color: ghostwhite;
 }
 
-.nav-link:hover, .navbar-brand:hover, #get-started-button:hover {
+.nav-link:hover, .navbar-brand:hover, #get-started-button:hover, #meet-trainer-button:hover {
     color: #84a98c;
 }
 
@@ -57,9 +58,12 @@ header .stand-out-text {
 }
 
 #get-started-button {
+    color: #2f3e46;
+}
+
+.buffed-button {
     border-radius: 25px;
     font-family: 'Ropa Sans', sans-serif;
-    color: #2f3e46;
     font-weight: bold;
 }
 
@@ -67,7 +71,6 @@ header .stand-out-text {
 /* Adjust formatting */
 .section-reviews .square-text {
     font-size: 3rem;
-    padding-top: 10vmin;
 }
 
 /* Cards styling */
@@ -81,4 +84,10 @@ header .stand-out-text {
 
 .section-reviews .buffed-paragraph {
     font-size: 1rem;
+}
+
+#meet-trainer-button {
+    margin-top: 3vmin;
+    background-color: #2f3e46;
+    color: ghostwhite;
 }
