@@ -1,5 +1,10 @@
+/* Remove horizontal scroll bar */
+html {
+    overflow-x: hidden;
+}
+
 /* Header styling */
-/* Gradient colour for background*/
+/* Gradient colour for background */
 :root {
     --header-background: linear-gradient(to bottom, #2f3e46, #52796f);
 }
@@ -27,15 +32,14 @@ header a {
 }
 
 .nav-link:hover, .navbar-brand:hover, #get-started-button:hover {
-    color: #52796f;
+    color: #84a98c;
 }
 
-/* Style text */
 #welcome-message {
     padding: 22vmin 1vmin 35vmin;
 }
 
-header .square-text {
+.square-text {
     letter-spacing: 5px;
     font-size: 1rem;
     font-family: 'Raleway', sans-serif;
@@ -48,14 +52,33 @@ header .stand-out-text {
 }
 
 
-header .buffed-paragraph {
+.buffed-paragraph {
     font-family: 'Indie Flower', cursive;
 }
 
-/* Style button */
 #get-started-button {
     border-radius: 25px;
     font-family: 'Ropa Sans', sans-serif;
     color: #2f3e46;
     font-weight: bold;
+}
+
+/* Reviews Styling */
+/* Adjust formatting */
+.section-reviews .square-text {
+    font-size: 3rem;
+    padding-top: 10vmin;
+}
+
+/* Cards styling */
+.section-reviews .card {
+    width: 75%;
+}
+
+.section-reviews .customer-name {
+    font-family: 'Sanchez', serif;
+}
+
+.section-reviews .buffed-paragraph {
+    font-size: 1rem;
 }
