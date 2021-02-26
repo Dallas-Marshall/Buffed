@@ -1,0 +1,61 @@
+/* Header styling */
+/* Gradient colour for background*/
+:root {
+    --header-background: linear-gradient(to bottom, #2f3e46, #52796f);
+}
+
+header {
+    background-color: #2f3e46;
+    background: var(--header-background);
+}
+
+/* Space from edges */
+.nav-item:last-child {
+    padding-right: 10vmin;
+}
+
+.navbar-brand {
+    padding-left: 10vmin;
+    font-family: 'Sanchez', serif;
+}
+
+/* Style navigation bar */
+header a {
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 1rem;
+    color: ghostwhite;
+}
+
+.nav-link:hover, .navbar-brand:hover, #get-started-button:hover {
+    color: #52796f;
+}
+
+/* Style text */
+#welcome-message {
+    padding: 22vmin 1vmin 35vmin;
+}
+
+header .square-text {
+    letter-spacing: 5px;
+    font-size: 1rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+header .stand-out-text {
+    font-size: 4rem;
+    font-family: 'Sanchez', serif;
+}
+
+
+header .buffed-paragraph {
+    font-family: 'Indie Flower', cursive;
+}
+
+/* Style button */
+#get-started-button {
+    border-radius: 25px;
+    font-family: 'Ropa Sans', sans-serif;
+    color: #2f3e46;
+    font-weight: bold;
+}
