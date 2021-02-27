@@ -31,7 +31,7 @@ header a {
     color: ghostwhite;
 }
 
-.nav-link:hover, .navbar-brand:hover, #get-started-button:hover, #meet-trainer-button:hover {
+.nav-link:hover, .navbar-brand:hover, #get-started-button:hover, #meet-trainer-button:hover, #view-plans-button:hover, #contact-us-button:hover {
     color: #84a98c;
 }
 
@@ -48,7 +48,7 @@ header a {
 
 header .stand-out-text {
     font-size: 5rem;
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 
@@ -68,30 +68,30 @@ header .stand-out-text {
 
 /* Reviews Styling */
 /* Adjust formatting */
-.section-reviews .square-text, .trainer-section .square-text {
+.section-reviews .square-text, .trainer-section .square-text, .plans-section .square-text, .contact-section .square-text {
     font-size: 3rem;
 }
 
 /* Cards styling */
-.section-reviews .card {
+.section-reviews .card, .plans-section .card {
     width: 75%;
 }
 
-.section-reviews .customer-name {
+.section-reviews .customer-name, .plans-section .plan-name {
     font-family: 'Raleway', sans-serif;
 }
 
-.section-reviews .buffed-paragraph {
+.section-reviews .buffed-paragraph, .plans-section .buffed-paragraph, .contact-section .buffed-paragraph {
     font-size: 1rem;
 }
 
-#meet-trainer-button, #view-plans-button {
+#meet-trainer-button, #view-plans-button, #contact-us-button, #submit-button {
     margin-top: 3vmin;
     background-color: #2f3e46;
     color: ghostwhite;
 }
 
-.section-reviews {
+.section-reviews, .trainer-section, .plans-section {
     margin-bottom: 10vmin;
 }
 
@@ -124,3 +124,10 @@ header .stand-out-text {
     font-size: 1em;
     color: #cad2c5;
 }
+
+form {
+    padding-top: 5vmin;
+    width: 60%;
+    margin:auto;
+}
+

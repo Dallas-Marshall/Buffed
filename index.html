@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <body>
 
 </body>
 <head>
     <meta charset="UTF-8"/>
-    <title>Books</title>
+    <title>Buffed</title>
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -45,7 +45,6 @@
                             <span class="sr-only">(current)</span>
                         </a>
                     </li>
-                    <!-- TODO: Link navigation as elements are created. -->
                     <li class="nav-item">
                         <a class="nav-link" href="##customer-reviews">Reviews</a>
                     </li>
@@ -53,10 +52,10 @@
                         <a class="nav-link" href="#trainer-section">Trainers</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Plans</a>
+                        <a class="nav-link" href="#plans-section">Plans</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Us</a>
+                        <a class="nav-link" href="#contact-section">Contact Us</a>
                     </li>
                 </ul>
             </div>
@@ -84,7 +83,7 @@
     <section class="section-reviews text-center" id="#customer-reviews">
         <div class="container">
             <h1 class="square-text">Hear What Our Clients Have Said</h1>
-            <p class="buffed-paragraph reviews-sub-heading">Reviews from past clients</p>
+            <p class="buffed-paragraph">Reviews from past clients</p>
         </div>
 
         <div class="row customers">
@@ -168,14 +167,158 @@
                     </div>
                     <div class="mx-auto">
                         <a id="view-plans-button" class="btn btn-light px-5 py-1.5 primary-btn buffed-button"
-                           href="#">Next: View Our Plans</a>
+                           href="#plans-section">Next: View Our Plans</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-</main>
+    <section class="plans-section text-center" id="plans-section">
+        <div>
+            <h1 class="square-text">View our Plans</h1>
+            <p class="buffed-paragraph">
+                <sup>*</sup>Plans can be customised and combined.
+            </p>
+        </div>
 
+        <div class="row customers">
+            <!-- Review 1 -->
+            <div class="col-md-4 col-sm-12">
+                <div class="card mr-2 d-inline-block shadow-lg">
+                    <img src="images/meal-planning-picture.jpg" class="card-img-top rounded" alt="Meal Planning">
+                    <div class="card-body">
+                        <h1 class="plan-name">Meal Planning</h1>
+                        <p class="card-text buffed-paragraph">
+                            1, 2, 3 or 4 meals per day plans.
+                        </p>
+                        <p class="card-text buffed-paragraph">
+                            Prices starting from $11.99.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Review 2 -->
+            <div class="col-md-4 col-sm-12">
+                <div class="card mr-2 d-inline-block shadow-lg">
+                    <img src="images/personal-training-picture.jpg" class="card-img-top rounded"
+                         alt="Personal Training">
+                    <div class="card-body">
+                        <h1 class="plan-name">Personal Training</h1>
+                        <p class="card-text buffed-paragraph">
+                            Personalised 1-on-1 Personal Training.
+                        </p>
+                        <p class="card-text buffed-paragraph">
+                            Prices starting from $39.99.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Review 3 -->
+            <div class="col-md-4 col-sm-12">
+                <div class="card mr-2 d-inline-block shadow-lg">
+                    <img src="images/weight-loss-picture.jpg" class="card-img-top rounded" alt="Weight Loss">
+                    <div class="card-body">
+                        <h1 class="plan-name">Weight Loss</h1>
+                        <p class="card-text buffed-paragraph">
+                            Personalised assistance to reach any goals.
+                        </p>
+                        <p class="card-text buffed-paragraph">
+                            Prices starting from $24.95
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="mx-auto">
+                <a id="contact-us-button" class="btn btn-light px-5 py-1.5 primary-btn buffed-button"
+                   href="#contact-section">Next: Get In Contact</a>
+            </div>
+        </div>
+    </section>
+    <section class="contact-section" id="contact-section">
+        <div class="text-center">
+            <h1 class="square-text">Contact Us Today</h1>
+            <p class="buffed-paragraph">What are you waiting for? </p>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <form id="contact-us-form">
+                    <div class="form-group row">
+                        <label for="client-name" class="col-sm-2 col-form-label">Name</label>
+                        <div class="col">
+                            <input id="client-name" type="text" class="form-control" placeholder="First name" required>
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Last name" required>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="client-email" class="col-sm-2 col-form-label">Email</label>
+                        <div class="col-sm-10">
+                            <input type="email" class="form-control" id="client-email" placeholder="Email" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="client-message">Message</label>
+                        <textarea class="form-control" id="client-message" rows="3" required></textarea>
+                    </div>
+                    <fieldset class="form-group">
+                        <div class="row">
+                            <label class="col-form-label col-sm-2 pt-0">Related Services</label>
+                            <div class="col-sm-10">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="meal-planning"
+                                           id="meal-planning-check">
+                                    <label class="form-check-label" for="meal-planning-check">
+                                        Meal Planning
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="personal-training"
+                                           id="personal-training-check">
+                                    <label class="form-check-label" for="personal-training-check">
+                                        Personal Training
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="weight-loss"
+                                           id="weight-loss-check">
+                                    <label class="form-check-label" for="weight-loss-check">
+                                        Weight Loss
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="other" id="other-check">
+                                    <label class="form-check-label" for="other-check">
+                                        Other <input type="text" class="form-control" placeholder="Describe">
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <div class="form-group row">
+                        <div class="col-sm-10">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="terms-check" required>
+                                <label class="form-check-label" for="terms-check">
+                                    I agree to <a href="#">Terms and Conditions</a>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-md-12 col-sm-12 submission">
+                            <button type="submit" class="btn px-5 py-1.5 buffed-button btn-block mx-auto"
+                                    id="submit-button">Sign in
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
+<script src="js/form-verification.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
 </script>
