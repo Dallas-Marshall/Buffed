@@ -31,7 +31,8 @@ header a {
     color: ghostwhite;
 }
 
-.nav-link:hover, .navbar-brand:hover, #get-started-button:hover, #meet-trainer-button:hover, #view-plans-button:hover, #contact-us-button:hover, .social-links:hover, .brand:hover {
+.nav-link:hover, .navbar-brand:hover, #get-started-button:hover, #meet-trainer-button:hover, #view-plans-button:hover,
+#contact-us-button:hover, #submit-button:hover, .social-links:hover, .brand:hover {
     color: #84a98c;
 }
 
