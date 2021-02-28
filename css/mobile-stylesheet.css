@@ -1,0 +1,49 @@
+@media (max-width: 992px) {
+    /* Make cards wider */
+    .section-reviews .card, .plans-section .card {
+        width: 90%;
+    }
+
+    footer p {
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Space between cards */
+    .card, .trainer-img {
+        margin-bottom: 5vmin;
+    }
+
+    /* Make form inline */
+    .form-group {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Show label on vertical form */
+    .md-hidden {
+        display: flex;
+    }
+
+    /* Make footer vertical */
+    footer .col-md-4 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* Remove redundant margin */
+    footer p {
+        margin-bottom: 0;
+    }
+
+    /* Center icons on screen */
+    .social-display {
+        display: inline;
+        margin: auto;
+    }
+
+}
