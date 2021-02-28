@@ -101,18 +101,15 @@ header .stand-out-text {
     border-radius: 5vmin;
 }
 
-.trainer-section .panel {
-    position: relative;
-    top: 7vmin;
-    left: -15vmin;
+.trainer-section .introduction {
     border-radius: 5vmin;
     background: var(--gradient-background);
-    padding: 10vmin 5vmin 10vmin;
+    padding: 20px 10px 20px;
     margin-bottom: 5vmin;
     text-align: left;
 }
 
-.trainer-section .panel h1 {
+.trainer-section .introduction h1 {
     font-family: 'Raleway', sans-serif;
     color: ghostwhite;
     font-size: 2em;
@@ -120,7 +117,7 @@ header .stand-out-text {
     padding-left: 2vmin;
 }
 
-.trainer-section .panel p {
+.trainer-section .introduction p {
     font-size: 1em;
     color: #cad2c5;
 }
