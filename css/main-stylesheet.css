@@ -31,7 +31,7 @@ header a {
     color: ghostwhite;
 }
 
-.nav-link:hover, .navbar-brand:hover, #get-started-button:hover, #meet-trainer-button:hover, #view-plans-button:hover, #contact-us-button:hover {
+.nav-link:hover, .navbar-brand:hover, #get-started-button:hover, #meet-trainer-button:hover, #view-plans-button:hover, #contact-us-button:hover, .social-links:hover, .brand:hover {
     color: #84a98c;
 }
 
@@ -126,4 +126,33 @@ form {
     padding-top: 5vmin;
     width: 60%;
     margin: auto;
+}
+
+footer p {
+    color: ghostwhite;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 1rem;
+    padding-top: 1vmin;
+}
+
+footer {
+    background: #2f3e46;
+}
+
+.social-links{
+    float: right;
+}
+
+.social-links {
+    padding-right: 5px;
+}
+
+footer a {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 1.5rem;
+    color: ghostwhite;
+}
+
+.brand:hover {
+    text-decoration: none;
 }
