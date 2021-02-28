@@ -95,6 +95,10 @@ header .stand-out-text {
     margin-bottom: 10vmin;
 }
 
+.section-reviews b {
+    color: #52796f;
+}
+
 /* Trainer section styling */
 .trainer-section .trainer-img {
     width: 80%;
@@ -122,12 +126,14 @@ header .stand-out-text {
     color: #cad2c5;
 }
 
+/* Form styling */
 form {
     padding-top: 5vmin;
     width: 60%;
     margin: auto;
 }
 
+/* Footer styling */
 footer p {
     color: ghostwhite;
     font-family: 'Source Serif Pro', serif;
