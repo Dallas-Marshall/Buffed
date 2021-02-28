@@ -243,73 +243,80 @@
         <div class="row">
             <div class="col-md-12 col-sm-12">
                 <form id="contact-us-form">
+                    <!-- Name row -->
                     <div class="form-group row">
-                        <label for="client-name" class="col-sm-2 col-form-label">Name</label>
+                        <label for="first-name-input" id="first-name-label" class="col-sm-2 col-form-label">Name</label>
                         <div class="col">
-                            <input id="client-name" type="text" class="form-control" placeholder="First name" required>
+                            <input id="first-name-input" type="text" class="form-control" placeholder="First name"
+                                   required>
                         </div>
                         <div class="col">
-                            <input type="text" class="form-control" placeholder="Last name" required>
+                            <input id="last-name-input" type="text" class="form-control" placeholder="Last name"
+                                   required>
                         </div>
                     </div>
+                    <!-- Email row -->
                     <div class="form-group row">
-                        <label for="client-email" class="col-sm-2 col-form-label">Email</label>
+                        <label for="client-email-input" id="client-email-label" class="col-sm-2 col-form-label">Email</label>
                         <div class="col-sm-10">
-                            <input type="email" class="form-control" id="client-email" placeholder="Email" required>
+                            <input type="email" class="form-control" id="client-email-input" placeholder="Email"
+                                   required>
                         </div>
                     </div>
+                    <!-- Message row -->
                     <div class="form-group">
-                        <label for="client-message">Message</label>
-                        <textarea class="form-control" id="client-message" rows="3" required></textarea>
+                        <label for="client-message-input" id="client-message-label">Message</label>
+                        <textarea class="form-control" id="client-message-input" rows="6" required></textarea>
                     </div>
+                    <!-- Services row -->
                     <fieldset class="form-group">
                         <div class="row">
-                            <label class="col-form-label col-sm-2 pt-0">Related Services</label>
+                            <label class="col-form-label col-sm-2 pt-0" id="services-label">Related Services</label>
                             <div class="col-sm-10">
+                                <!-- Meal planning checkbox -->
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" value="meal-planning"
                                            id="meal-planning-check">
-                                    <label class="form-check-label" for="meal-planning-check">
-                                        Meal Planning
-                                    </label>
+                                    <label class="form-check-label" for="meal-planning-check">Meal Planning</label>
                                 </div>
+                                <!-- Personal training checkbox -->
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" value="personal-training"
                                            id="personal-training-check">
-                                    <label class="form-check-label" for="personal-training-check">
-                                        Personal Training
-                                    </label>
+                                    <label class="form-check-label" for="personal-training-check">Personal
+                                        Training</label>
                                 </div>
+                                <!-- Weight loss checkbox -->
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" value="weight-loss"
                                            id="weight-loss-check">
-                                    <label class="form-check-label" for="weight-loss-check">
-                                        Weight Loss
-                                    </label>
+                                    <label class="form-check-label" for="weight-loss-check">Weight Loss</label>
                                 </div>
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" value="other" id="other-check">
-                                    <label class="form-check-label" for="other-check">
-                                        Other <input type="text" class="form-control" placeholder="Describe">
+                                    <label class="form-check-label" for="other-check">Other
+                                        <input id="other-input" type="text" class="form-control" placeholder="Describe">
                                     </label>
                                 </div>
                             </div>
                         </div>
                     </fieldset>
+                    <!-- Terms row -->
                     <div class="form-group row">
                         <div class="col-sm-10">
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" id="terms-check" required>
                                 <label class="form-check-label" for="terms-check">
-                                    I agree to <a href="#">Terms and Conditions</a>
+                                    I agree to <a href="#" target="_blank">Terms and Conditions</a>
                                 </label>
                             </div>
                         </div>
                     </div>
+                    <!-- Submit row -->
                     <div class="form-group row">
                         <div class="col-md-12 col-sm-12 submission">
                             <button type="submit" class="btn px-5 py-1.5 buffed-button btn-block mx-auto"
-                                    id="submit-button">Sign in
+                                    id="submit-button">Submit
                             </button>
                         </div>
                     </div>
