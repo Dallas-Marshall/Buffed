@@ -163,3 +163,8 @@ footer a {
 .brand:hover {
     text-decoration: none;
 }
+
+/* Hide on medium devices */
+.md-hidden {
+    display: none;
+}

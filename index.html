@@ -5,6 +5,10 @@
 </body>
 <head>
     <meta charset="UTF-8"/>
+
+    <!-- Instruct browser how to handle scaling -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
     <title>Buffed</title>
 
     <!-- Bootstrap -->
@@ -240,13 +244,14 @@
             <div class="col-md-12 col-sm-12">
                 <form id="contact-us-form">
                     <!-- Name row -->
-                    <div class="form-group row">
+                    <div class="form-group row" id="name-row">
                         <label for="first-name-input" id="first-name-label" class="col-sm-2 col-form-label">Name</label>
                         <div class="col">
                             <input id="first-name-input" type="text" class="form-control" placeholder="First name"
                                    required>
                         </div>
                         <div class="col">
+                            <label for="last-name-input" class="md-hidden"></label>
                             <input id="last-name-input" type="text" class="form-control" placeholder="Last name"
                                    required>
                         </div>
@@ -334,10 +339,12 @@
                 <p>Copyright ©2021 All rights reserved</p>
             </div>
             <div class="col-md-4">
+                <div class="social-display">
                 <a href="https://www.instagram.com/" class="social-links">
                     <i class="fab fa-instagram"></i></a>
                 <a href="https://www.facebook.com/" class="social-links">
                     <i class="fab fa-facebook-square"></i></a>
+                </div>
             </div>
         </div>
     </div>
