@@ -9,7 +9,7 @@ form.addEventListener("submit", () => {
     const meal_planning_checkbox = document.getElementById("meal-planning-check");
     const personal_training_checkbox = document.getElementById("personal-training-check");
     const weight_loss_checkbox = document.getElementById("weight-loss-check");
-    const other_checkbox = document.getElementById("other-check-check");
+    const other_checkbox = document.getElementById("other-check");
 
     // Check at least one checkbox is ticked
     let is_minimum_checkbox_ticked = false;
