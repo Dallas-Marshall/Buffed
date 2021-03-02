@@ -46,4 +46,8 @@
         margin: auto;
     }
 
+    /* Reduce header title size */
+    header .stand-out-text {
+        font-size: 3rem;
+    }
 }
