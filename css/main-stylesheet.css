@@ -70,20 +70,20 @@ header .stand-out-text {
 
 /* Reviews Styling */
 /* Adjust formatting */
-.section-reviews .square-text, .trainer-section .square-text, .plans-section .square-text, .contact-section .square-text {
+.reviews-section .square-text, .consultant-section .square-text, .services-section .square-text, .contact-section .square-text {
     font-size: 3rem;
 }
 
 /* Cards styling */
-.section-reviews .card, .plans-section .card {
+.reviews-section .card, .services-section .card {
     width: 75%;
 }
 
-.section-reviews .customer-name, .plans-section .plan-name {
+.reviews-section .customer-name, .services-section .plan-name {
     font-family: 'Raleway', sans-serif;
 }
 
-.section-reviews .buffed-paragraph, .plans-section .buffed-paragraph, .contact-section .buffed-paragraph {
+.reviews-section .buffed-paragraph, .services-section .buffed-paragraph, .contact-section .buffed-paragraph {
     font-size: 1rem;
 }
 
@@ -93,21 +93,21 @@ header .stand-out-text {
     color: ghostwhite;
 }
 
-.section-reviews, .trainer-section, .plans-section {
+.reviews-section, .consultant-section, .services-section {
     margin-bottom: 10vmin;
 }
 
-.section-reviews b {
+.reviews-section b {
     color: #52796f;
 }
 
 /* Trainer section styling */
-.trainer-section .trainer-img {
+.consultant-section .consultant-img {
     width: 80%;
     border-radius: 5vmin;
 }
 
-.trainer-section .introduction {
+.consultant-section .introduction {
     border-radius: 5vmin;
     background: var(--gradient-background);
     padding: 20px 10px 20px;
@@ -115,7 +115,7 @@ header .stand-out-text {
     text-align: left;
 }
 
-.trainer-section .introduction h1 {
+.consultant-section .introduction h1 {
     font-family: 'Raleway', sans-serif;
     color: ghostwhite;
     font-size: 2em;
@@ -123,7 +123,7 @@ header .stand-out-text {
     padding-left: 2vmin;
 }
 
-.trainer-section .introduction p {
+.consultant-section .introduction p {
     font-size: 1em;
     color: #cad2c5;
 }
