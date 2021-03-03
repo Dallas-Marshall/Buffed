@@ -6,18 +6,18 @@ form.addEventListener("submit", () => {
     const first_name_input = document.getElementById("first-name-input").value;
     const last_name_input = document.getElementById("last-name-input").value;
     const email_input = document.getElementById("client-email-input").value;
-    const meal_planning_checkbox = document.getElementById("meal-planning-check");
-    const personal_training_checkbox = document.getElementById("personal-training-check");
-    const weight_loss_checkbox = document.getElementById("weight-loss-check");
+    const home_services_checkbox = document.getElementById("home-check");
+    const commercial_services_checkbox = document.getElementById("commercial-check");
+    const hotel_services_checkbox = document.getElementById("hotel-check");
     const other_checkbox = document.getElementById("other-check");
 
     // Check at least one checkbox is ticked
     let is_minimum_checkbox_ticked = false;
-    if (meal_planning_checkbox.checked === true) {
+    if (commercial_services_checkbox.checked === true) {
         is_minimum_checkbox_ticked = true;
-    } else if (personal_training_checkbox.checked === true) {
+    } else if (home_services_checkbox.checked === true) {
         is_minimum_checkbox_ticked = true;
-    } else if (weight_loss_checkbox.checked === true) {
+    } else if (hotel_services_checkbox.checked === true) {
         is_minimum_checkbox_ticked = true;
     } else if (other_checkbox.checked === true) {
         is_minimum_checkbox_ticked = true;
